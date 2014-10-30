@@ -43,9 +43,7 @@ Software to speed up image analysis in ImageJ
   again and 'Ctrl+C' to copy the results into the spreadsheet.
 
 ###### Macros called in Coupling_Pipeline:
-  
-  -SetPoint.ijm - Marks the center of the image and uses this as a reference point.
-  
-  -RegionSelect.ijm - Allows the coupling regions to be manually selected. Automation was more difficult to implement
+- SetPoint.ijm - Marks the center of the image and uses this as a reference point.
+- RegionSelect.ijm - Allows the coupling regions to be manually selected. Automation was more difficult to implement
     for the coupling pipeline, but this speeds up selection of the coupling regions.
 
