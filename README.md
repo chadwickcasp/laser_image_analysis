@@ -3,7 +3,7 @@ laser_image_analysis
 
 Software to speed up image analysis in ImageJ
 
-###### Installation:
+#### Installation:
 
 - Download the latest version of ImageJ
 - Copy all files in the 'Macros' folder and paste them into the 'plugins' folder within your ImageJ directory.
@@ -12,7 +12,7 @@ Software to speed up image analysis in ImageJ
 - The dialog will prompt you to save them in the 'plugins' folder of your ImageJ directory. Navigate to 'Analyze'
   and save the files there.
 
-##### Files and descriptions:
+#### Files and descriptions:
 
 ###### Analysis_Pipeline: 
   The pipeline used to analyze the laser images. When results put into spreadsheet, this calculates the high index 
