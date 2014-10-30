@@ -25,7 +25,7 @@ Directions:
   the spreadsheet.
 
 Macros called in Analysis_Pipeline:
-  \nSetPoint.ijm - Marks the center of the image and uses this as a reference point.
+  SetPoint.ijm - Marks the center of the image and uses this as a reference point.
   CropStack.ijm - The laser points should be equidistant from the reference point. This crops out all image features
     that are outside of the laser point's range.
   Colorize.ijm - This module correctly thresholds the image and converts it into 8-bit in order to perform particle
@@ -33,7 +33,7 @@ Macros called in Analysis_Pipeline:
   LaserSelect.ijm - Allows the laser points to be manually selected. This is to be run when the automation is failing.
 
 Coupling_Pipeline:
-  The pipeline used to analyze coupling region images. When results put into the spreadsheet, this calculates the low 
+  The pipeline used to analyze coupling region images. When results put into the spreadsheet, this calculates the low
   index fill.
 
 Directions:
