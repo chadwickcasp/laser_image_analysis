@@ -25,7 +25,7 @@ Directions:
   the spreadsheet.
 
 Macros called in Analysis_Pipeline:
-  SetPoint.ijm - Marks the center of the image and uses this as a reference point.
+  \nSetPoint.ijm - Marks the center of the image and uses this as a reference point.
   CropStack.ijm - The laser points should be equidistant from the reference point. This crops out all image features
     that are outside of the laser point's range.
   Colorize.ijm - This module correctly thresholds the image and converts it into 8-bit in order to perform particle
